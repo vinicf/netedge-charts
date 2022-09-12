@@ -1,0 +1,12 @@
+# Default values for mystique.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+manifests:
+  - name: mep
+    apiVersion: v1
+    kind: Service
+    spec:
+      ports:
+        - name: http
+          port: 8080
+    body: {}
