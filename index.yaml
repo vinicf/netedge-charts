@@ -1,0 +1,129 @@
+apiVersion: v1
+entries:
+  alpine:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2022-09-12T17:49:30.648851154Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: c8eb8a399459f98a5508f5478122b108cd0bcfd43bdd7911c59b681e786162e3
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: alpine
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/alpine-0.1.2/alpine-0.1.2.tgz
+    version: 0.1.2
+  dependencies:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-09-12T17:49:30.945714091Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      version: 17.x.x
+    description: Chart to test dependencies
+    digest: dcd210496d748c62934872bde5955ffed6b3d76f79c6245f1f0f6450218246eb
+    home: https://github.com/helm/charts-repo-actions-demo
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: dependencies
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/dependencies-0.1.0/dependencies-0.1.0.tgz
+    version: 0.1.0
+  docker-compose:
+  - apiVersion: v1
+    created: "2022-09-12T17:49:31.064988368Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: f71c4da0370499d6ff1522583b147d9c6a844dc2d34618c30b7302e824e31197
+    home: https://github.com/UMinho-Netedge/netedge-mep-uminho/
+    keywords:
+    - docker-compose
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: docker-compose
+    sources:
+    - https://github.com/UMinho-Netedge/netedge-mep-uminho/
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/docker-compose-0.0.1/docker-compose-0.0.1.tgz
+    version: 0.0.1
+  example:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-09-12T17:49:31.200448096Z"
+    description: A Helm chart for Kubernetes
+    digest: 08dde990efcef2077d0a6c9879e20cdedb7b7451947efdb5c7b9708755b146e2
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/example-0.1.2/example-0.1.2.tgz
+    version: 0.1.2
+  helloworld:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-09-12T17:49:31.337616429Z"
+    description: A Helm chart for Kubernetes
+    digest: 0032dca61e11805b1fe5f8c9e204b9fb7d0f4f05c5ff67cc0508a2166ec3650b
+    home: https://paulczar.github.io/charts
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: helloworld
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/helloworld-2.0.0/helloworld-2.0.0.tgz
+    version: 2.0.0
+  kubecon:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-09-12T17:49:31.458806612Z"
+    description: A Helm chart for Kubernetes
+    digest: 1cf36bcef70b75dff4f8692f99a6f62275b8905b598dc5aa29cf33d3832db2dc
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: kubecon
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/kubecon-0.1.0/kubecon-0.1.0.tgz
+    version: 0.1.0
+  mystique:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-09-12T17:49:31.605417975Z"
+    description: A helm chart for masquerading as misc helm resources.
+    digest: 02d88224e2f685c796519de734eda84f8493bd42025b69c3ec1f6e509d93c9d3
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: mystique
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/mystique-0.1.0/mystique-0.1.0.tgz
+    version: 0.1.0
+  raw:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-09-12T17:49:31.737801512Z"
+    description: A helm chart for deploying raw manifests
+    digest: 0597a8cf5d59cee87047ce988b85c814192d0ba2c6382399f86a2673d0f581d0
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: raw
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/raw-1.0.1/raw-1.0.1.tgz
+    version: 1.0.1
+generated: "2022-09-12T17:49:31.737809012Z"
