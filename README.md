@@ -1,11 +1,11 @@
-# Paul's Helm Charts
+NETEDGE's Helm Charts
 
-[![](https://github.com/paulczar/charts/workflows/Release%20Charts/badge.svg?branch=master)](https://github.com/paulczar/charts/actions)
+[![](https://github.com/vinicf/charts/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/vinicf/charts/actions)
 
 ## Usage
 
 ```bash
-helm repo add paulczar http://tech.paulcz.net/charts
+helm repo add paulczar https://vinicf.github.io/netedge-charts/
 helm repo update
-helm install my-secret --namespace my-secret paulczar/raw
+helm install mepserver --namespace default vinicf/mepserver
 ```
