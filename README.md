@@ -5,7 +5,7 @@ NETEDGE's Helm Charts
 ## Usage
 
 ```bash
-helm repo add paulczar https://vinicf.github.io/netedge-charts/
+helm repo add vinicf https://vinicf.github.io/netedge-charts/
 helm repo update
 helm install mepserver --namespace default vinicf/mepserver
 ```
