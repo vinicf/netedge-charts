@@ -19,6 +19,26 @@ entries:
   dependencies:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-09-23T15:04:23.650114517Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      version: 17.x.x
+    description: Chart to test dependencies
+    digest: f951594107b970ee4da017ca0a9526920dd76c3237997d7701f2428e433e1ca0
+    home: https://github.com/helm/charts-repo-actions-demo
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: dependencies
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/dependencies-1.1.0/dependencies-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-09-12T17:49:30.945714091Z"
     dependencies:
     - condition: redis.enabled
@@ -144,4 +164,4 @@ entries:
     urls:
     - https://github.com/vinicf/netedge-charts/releases/download/raw-1.0.1/raw-1.0.1.tgz
     version: 1.0.1
-generated: "2022-09-23T14:48:20.233851748Z"
+generated: "2022-09-23T15:04:23.650129517Z"
