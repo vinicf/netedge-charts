@@ -14,7 +14,7 @@
 
 name: mep
 description: A Helm Chart for ETSI MEC Platform developed by ALGORITMI Centre - UMinho
-version: 0.0.1
+version: 1.0.1
 apiVersion: v1
 keywords:
   - mep
