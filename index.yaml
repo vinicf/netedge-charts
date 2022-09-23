@@ -98,6 +98,24 @@ entries:
     urls:
     - https://github.com/vinicf/netedge-charts/releases/download/kubecon-0.1.0/kubecon-0.1.0.tgz
     version: 0.1.0
+  mep:
+  - apiVersion: v1
+    created: "2022-09-23T14:48:20.233842648Z"
+    description: A Helm Chart for ETSI MEC Platform developed by ALGORITMI Centre
+      - UMinho
+    digest: 7033f30d342e9ddf010954c0e3fc0cb8ad33a418be4b79f82f44ef3b00e7e22d
+    home: https://github.com/UMinho-Netedge/netedge-mep-uminho/
+    keywords:
+    - mep
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: mep
+    sources:
+    - https://github.com/UMinho-Netedge/netedge-mep-uminho/
+    urls:
+    - https://github.com/vinicf/netedge-charts/releases/download/mep-1.0.1/mep-1.0.1.tgz
+    version: 1.0.1
   mystique:
   - apiVersion: v1
     appVersion: "1.0"
@@ -126,4 +144,4 @@ entries:
     urls:
     - https://github.com/vinicf/netedge-charts/releases/download/raw-1.0.1/raw-1.0.1.tgz
     version: 1.0.1
-generated: "2022-09-12T17:49:31.737809012Z"
+generated: "2022-09-23T14:48:20.233851748Z"
